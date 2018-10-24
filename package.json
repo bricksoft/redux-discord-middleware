@@ -1,0 +1,18 @@
+{
+  "name": "redux-discord-middleware",
+  "version": "1.0.0",
+  "author": {
+    "name": "JABUCO",
+    "email": "support@jabuco-it.de",
+    "url": "https://jabuco-it.de"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabuco/redux-discord-middleware.git"
+  },
+  "peerDependencies": {
+    "discord.js": "^11.4.0",
+    "redux": "^4.0.0"
+  }
+}

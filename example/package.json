@@ -1,0 +1,28 @@
+{
+  "name": "redux-discord-middleware-example",
+  "version": "1.0.0",
+  "author": {
+    "name": "JABUCO",
+    "email": "support@jabuco-it.de",
+    "url": "https://jabuco-it.de"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabuco/redux-discord-middleware.git"
+  },
+  "scripts": {
+    "start": "cross-env DISCORD_TOKEN= node ./index.js"
+  },
+  "settings": {
+    "discord_token": ""
+  },
+  "devDependencies": {
+    "remote-redux-devtools": "^0.5.13"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "discord.js": "^11.4.2",
+    "redux": "^4.0.1"
+  }
+}
